@@ -17,9 +17,10 @@ namespace PackLibrary
         {
             InitializeComponent();
         }
-        string CONNNECTION_STRING = @"Server=SOPORTE\ETIQUETAS;Catalog Initial=BDBioAdminSQL;Integrated  ";
         private void Main_Load(object sender, EventArgs e)
         {
+
+
 
         }
     }
