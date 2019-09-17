@@ -1,0 +1,13 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/PackLibrary/.vs/PackLibrary/v16/Server/sqlite3/db.lock
+/PackLibrary/.vs/PackLibrary/v16/Server/sqlite3
+/PackLibrary/.vs/PackLibrary/v16/.suo
+/PackLibrary/obj/Debug
+/PackLibrary/Properties/AssemblyInfo.cs
+/PackLibrary/Properties/Resources.Designer.cs
+/PackLibrary/Properties/Resources.resx
+/PackLibrary/Properties/Settings.Designer.cs
+/PackLibrary/Properties/Settings.settings
