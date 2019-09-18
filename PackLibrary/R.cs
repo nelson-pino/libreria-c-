@@ -12,7 +12,7 @@ namespace PackLibrary
         {
             public static string SERVIDOR = @"SOPORTE\ETIQUETAS";
             public static string USER = "soporte";
-            public static string PASSWORD = "Jossycar5%";
+            public static string PASSWORD = "123";
             public static string CONNECTION_STRING = @"Server=" + R.SQL_SERVER.SERVIDOR
                 +";Initial Catalog="+DATABASE.NAME_BIOADMIN+";User Id="+R.SQL_SERVER.USER+
                 ";PassWord="+SQL_SERVER.PASSWORD;

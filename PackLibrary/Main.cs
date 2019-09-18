@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data;
+using PackLibrary.Clases;
+
 
 namespace PackLibrary
 {
@@ -17,11 +18,11 @@ namespace PackLibrary
         {
             InitializeComponent();
         }
+
         private void Main_Load(object sender, EventArgs e)
         {
-
-
-
-        }
+            MicommSql micomm = new MicommSql();
+            micomm.Conectar();
+         }
     }
 }
