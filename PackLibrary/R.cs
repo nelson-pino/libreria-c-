@@ -20,7 +20,28 @@ namespace PackLibrary
         public class DATABASE
         {
             public static string NAME_BIOADMIN = "BDBioAdminSQL";
-            
+
+
+            public class FIELDS_DB
+            {
+                public class BDBioAdminSQL
+                {
+                    public static string IDUSER = "IdUser";
+                    public static string FECHARECORD = "RecordTime";
+                    public static string MACHINE = "MachineNumber";
+                }
+            }
+            public class TABLES
+            {
+                public static string TABLE_RECORD = "Record";
+            }
         }
+        public class STRING_SQL
+        {
+            public static string GET_PONCHES = "SELECT " + R.DATABASE.FIELDS_DB.BDBioAdminSQL.IDUSER + "," +
+                R.DATABASE.FIELDS_DB.BDBioAdminSQL.FECHARECORD +","+R.DATABASE.FIELDS_DB.BDBioAdminSQL.MACHINE +
+                "FROM "+R.DATABASE.TABLES.TABLE_RECORD;
+        }
+
     }
 }

@@ -5,10 +5,11 @@ using System.Windows.Forms;
 
 namespace PackLibrary.Clases
 {
-    public class MicommSql
+ 
+    public class MicommSql : IDisposable
     {
         SqlConnection cnn;
-
+        
         public Boolean Conectar()
         {
             try
@@ -49,6 +50,12 @@ namespace PackLibrary.Clases
                 return false;
             }
         }
-
+        public void Dispose()
+        {
+            if (cnn != null)
+            {
+                cnn.Dispose();
+            }
+        }
     }
 }

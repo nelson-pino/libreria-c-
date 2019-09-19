@@ -21,8 +21,10 @@ namespace PackLibrary
 
         private void Main_Load(object sender, EventArgs e)
         {
-            MicommSql micomm = new MicommSql();
-            micomm.Conectar();
+           
+
+
+             
          }
     }
 }
